@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.maltsevve.patterns.factoryMethod</OriginalElement>
+  <nodes>
+    <node x="0.0" y="114.0">com.maltsevve.patterns.factoryMethod.EconomicsStudent</node>
+    <node x="63.71527777777777" y="218.0">com.maltsevve.patterns.factoryMethod.EconomicsStudentFactory</node>
+    <node x="317.5486111111111" y="0.0">com.maltsevve.patterns.factoryMethod.Student</node>
+    <node x="413.2152777777777" y="114.0">com.maltsevve.patterns.factoryMethod.MedicalStudent</node>
+    <node x="394.2986111111111" y="218.0">com.maltsevve.patterns.factoryMethod.MedicalStudentFactory</node>
+    <node x="255.0" y="322.0">com.maltsevve.patterns.factoryMethod.FactoryMethodDemo</node>
+    <node x="219.21527777777774" y="114.0">com.maltsevve.patterns.factoryMethod.StudentFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.maltsevve.patterns.factoryMethod.EconomicsStudent" target="com.maltsevve.patterns.factoryMethod.Student">
+      <point x="0.0" y="-27.0" />
+      <point x="88.0" y="74.0" />
+      <point x="331.0486111111111" y="74.0" />
+      <point x="-67.5" y="27.0" />
+    </edge>
+    <edge source="com.maltsevve.patterns.factoryMethod.MedicalStudentFactory" target="com.maltsevve.patterns.factoryMethod.StudentFactory">
+      <point x="-72.0" y="-27.0" />
+      <point x="430.2986111111111" y="193.0" />
+      <point x="364.2152777777777" y="193.0" />
+      <point x="58.0" y="27.0" />
+    </edge>
+    <edge source="com.maltsevve.patterns.factoryMethod.MedicalStudent" target="com.maltsevve.patterns.factoryMethod.Student">
+      <point x="0.0" y="-27.0" />
+      <point x="494.2152777777777" y="94.0" />
+      <point x="412.0486111111111" y="94.0" />
+      <point x="13.5" y="27.0" />
+    </edge>
+    <edge source="com.maltsevve.patterns.factoryMethod.EconomicsStudentFactory" target="com.maltsevve.patterns.factoryMethod.StudentFactory">
+      <point x="77.33333333333331" y="-27.0" />
+      <point x="257.0486111111111" y="193.0" />
+      <point x="248.21527777777774" y="193.0" />
+      <point x="-58.0" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="305.5" y="199.0" />
+  <SelectedNodes>
+    <node>com.maltsevve.patterns.factoryMethod.EconomicsStudent</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
